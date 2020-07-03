@@ -125,7 +125,7 @@ class Generation(Genetic_Algorithm):
 		
 def main():
 
-	generation=Generation(8,8,0,8)
+	generation=Generation(8,8,0,7)
 	parents=generation.inital_generation()
 	print(parents)
 	found=False
