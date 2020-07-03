@@ -5,7 +5,7 @@ Problem Description :
   The eight queens puzzle is the problem of placing eight chess queens on an 8×8 chessboard so that no two queens threaten each other; thus, a solution requires that no two queens   share the same row, column, or diagonal.
 
 Solution Description : 
-  This program makes use of genetic algorithm approach to solve this puzzle. By applying crossover and mutations between the offsprings, we finally reach to a fittest generation     wherein we get the desired genes.
+  This program makes use of genetic algorithm approach to solve this puzzle. By applying crossover and mutations between the parents to generate offsprings, we finally reach to a fittest generation wherein we get the desired genes.
 
 Fitness Function : 
   The fitness function calculates the fitness based on the number of Queens in a gene which are safe from attack. As this fitness maximises we receive a solution where all the       Queens are safe from the attack.
